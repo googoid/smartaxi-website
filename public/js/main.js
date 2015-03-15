@@ -1,5 +1,5 @@
 jQuery( document ).ready(function( $ ) {
-	var imgs = ['./img/2k.jpg', './img/fhd.jpg', './img/logo.png', './img/btn_apple.png', './img/btn_google.png'];
+	var imgs = ['./images/2k.jpg', './images/fhd.jpg', './images/logo.png', './images/btn_apple.png', './images/btn_google.png'];
 
 	$('body').plainOverlay('show', {duration: 400, fillColor:'#251a36', opacity:'0.9', progress:false});
 
