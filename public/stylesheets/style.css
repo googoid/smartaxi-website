@@ -243,6 +243,15 @@ html,body{
 	}
 }
 
+/* Large screens ----------- Greater then Full HD */
+@media only screen  and (min-height : 1080px) {
+/* Styles */
+	.page {
+	    background: #251a36 url(../images/2k.jpg) no-repeat top center fixed;
+	}
+}
+
+
 
 
 
