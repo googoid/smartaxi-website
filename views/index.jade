@@ -1,6 +1,18 @@
 extends layout
 
 block content
-  div(class="container")
-    img.ri(src="/images/logo.png")
-    img.sb(src="/images/btn_google_apple.png")
+	div(class="page")
+		div(class="cont")
+			img.logo(src="/images/logo.png")
+			div(class="text")
+				p=Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an 
+				-unknown printer took a galley of type and scrambled it to make a type specimen book.
+			div(class="langs")
+				a(class="lang act" href="#") ARM
+				a(class="lang" href="#") ENG
+				a(class="lang last" href="#") RUS
+			p(class="coming") Coming soon on all devices
+			div(class="buttons")
+				img.google(src="/images/btn_google.png")
+				img(src="/images/btn_apple.png")
+
