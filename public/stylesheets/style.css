@@ -102,9 +102,9 @@ html,body{
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 640px) {
 	.page {
-		padding: 3% 0;
+		padding: 4% 0;
 		height:auto;
 	    width: 100%;
 	    min-width: 100%;
@@ -116,7 +116,7 @@ html,body{
 	}
 	.page .cont {
 		width: 90%;
-		padding: 5% 0;
+		padding: 4% 0;
 		-webkit-transform: none;
   		-ms-transform:  none;
   		transform:  none;
@@ -157,6 +157,11 @@ html,body{
 	}
 
 }
+
+
+
+
+
 
 
 
