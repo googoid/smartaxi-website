@@ -116,7 +116,7 @@ html,body{
 	}
 	.page .cont {
 		width: 90%;
-		padding: 4% 0;
+		padding: 5% 0;
 		-webkit-transform: none;
   		-ms-transform:  none;
   		transform:  none;
@@ -157,84 +157,6 @@ html,body{
 	}
 
 }
-
-/* Smartphones (landscape)  iphone 5 < ----------- */
-@media only screen and (min-device-width : 480px) and (max-device-width : 568px) {
-/* Styles */
- 	.page {
-		padding: 3% 0;
-		height:auto;
-	    width: 100%;
-	    min-width: 100%;
-	    background-color: #251a36;
-		background-image: url(../images/fhd.jpg);
-		background-size: auto 100%;
-		background-repeat: no-repeat;
-		background-position: top center;
-	}
-	.page .cont {
-		width: 90%;
-		padding: 4% 0;
-		-webkit-transform: none;
-  		-ms-transform:  none;
-  		transform:  none;
-	}
-	.page .cont .logo {
-		width: 30%;
-	}
- 	.page .cont .buttons img {
-		width: 40%;
-	}
-}
-
-/* Smartphones (portrait)  iphone 5 < ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width: 320px) {
-/* Styles */
- 	.page .cont .buttons img {
-		width: 40%;
-	}
-}
-
-/* Smartphones (landscape) ----------- */
-@media only screen and (min-device-width : 361px) and (max-device-width : 736px) {
-/* Styles */
-	.page {
-		padding: 3% 0;
-		height:auto;
-	    width: 100%;
-	    min-width: 100%;
-	    background-color: #251a36;
-		background-image: url(../images/fhd.jpg);
-		background-size: auto 100%;
-		background-repeat: no-repeat;
-		background-position: top center;
-	}
-	.page .cont {
-		width: 90%;
-		padding: 4% 0;
-		-webkit-transform: none;
-  		-ms-transform:  none;
-  		transform:  none;
-	}
-	.page .cont .logo {
-		width: 30%;
-	}
- 	.page .cont .buttons img {
-		width: 30%;
-	}
-}
-
-/* Smartphones (portrait) ----------- */
-@media only screen and (min-device-width : 360px) and (max-device-width: 414px) {
-/* Styles */
-  	.page .cont .buttons img {
-		width: 40%;
-	}
-}
-
-
-
-
 
 
 
