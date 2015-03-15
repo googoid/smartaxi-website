@@ -8,7 +8,6 @@ html,body{
     min-width: 100%;
     margin: 0;
     padding:0;
-    background: #251a36 url(../images/2k.jpg) no-repeat top center fixed;
 }
 .page {
     height:100%;
@@ -16,6 +15,7 @@ html,body{
     min-width: 100%;
     margin:0;
     padding:0;
+    background: #251a36 url(../images/2k.jpg) no-repeat top center fixed;
 }
 
 .page .cont {
@@ -106,18 +106,19 @@ html,body{
 	html,body{
 	    height:100%;
 	    min-height:100%;
-
+	    background-color: red;	    
+	}
+	.page {
+		padding: 5% 0;
+		height:auto;
+		min-height:100%;
+	    width: 100%;
+	    min-width: 100%;
 	    background-color: #251a36;
 		background-image: url(../images/fhd.jpg);
 		background-size: auto 100%;
 		background-repeat: no-repeat;
 		background-position: top center;
-	}
-	.page {
-		padding: 5% 0;
-		height:auto;
-	    width: 100%;
-	    min-width: 100%;	    
 	}
 	.page .cont {
 		width: 90%;
@@ -178,11 +179,8 @@ html,body{
 /* Desktops and laptops ----------- [>= 1280 < 1920] */
 @media only screen  and (min-width : 1280px) and (max-width : 1919px) {
 /* Styles */
-	html,body {
-		background: #251a36 url(../images/fhd.jpg) no-repeat top center fixed;
-	}
 	.page {
-	    
+	    background: #251a36 url(../images/fhd.jpg) no-repeat top center fixed;
 	}
 	.page .cont {
 		padding: 1% 0 1% 0;
@@ -211,11 +209,8 @@ html,body{
 /* Large screens ----------- Full HD */
 @media only screen  and (min-width : 1920px) and (max-width : 1920px) {
 /* Styles */
-	html,body {
-		background: #251a36 url(../images/fhd.jpg) no-repeat top center fixed;
-	}
 	.page {
-	
+	    background: #251a36 url(../images/fhd.jpg) no-repeat top center fixed;
 	}
 	.page .cont {
 		padding: 4% 0 2% 0;
@@ -234,11 +229,8 @@ html,body{
 /* Large screens ----------- Greater then Full HD */
 @media only screen  and (min-width : 1921px) {
 /* Styles */
-	html,body {
-		background: #251a36 url(../images/2k.jpg) no-repeat top center fixed;
-	}
 	.page {
-	    
+	    background: #251a36 url(../images/2k.jpg) no-repeat top center fixed;
 	}
 	.page .cont {
 		padding: 4% 0 2% 0;
