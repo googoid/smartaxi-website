@@ -16,8 +16,8 @@ router.get('/en', function(req, res, next) {
   res.render('index', { 
     lang_id: 'en',
     title: 'SmartTaxi',
-    body_top_text: '',
-    body_bottom_text: '',
+    body_top_text: 'The reason for their not coming to Yerevan is an atmosphere fear. They preferred nonparticipation to finding themselves persecuted on returning from Yerevan. I regret that after any program an organization that had had a meeting with its Armenian partners was charged with high treason. This atmosphere of fear is difficult to cope with, and people prefer not coming,” Mr Poghosyan said.',
+    body_bottom_text: 'An Armenian delegation participated in a Euronest',
     coming_soon_text: 'Coming soon on mobile devices'
   });
 });
