@@ -57,6 +57,9 @@ html,body{
 	margin: 0px;
 	padding: 0px;
 }
+.page .cont .text p.b {
+	margin-top: 3%;
+}
 
 .page .cont .langs {
 	/*width: 450px;
@@ -185,6 +188,7 @@ html,body{
 	}
 	.page .cont {
 		padding: 1% 0 1% 0;
+		width: 60%;
 	}
 	.page .cont .logo {
 		width: 30%;
@@ -214,16 +218,16 @@ html,body{
 	    background: #251a36 url(../images/fhd.jpg) no-repeat top center fixed;
 	}
 	.page .cont {
-		padding: 4% 0 2% 0;
+		padding: 3% 0 2% 0;
 	}
 	.page .cont .text {
-		margin: 8% auto 0 auto;
+		margin: 5% auto 0 auto;
 	}
 	.page .cont .text p {
 		font-size: 20pt;
 	}
 	.page .cont .langs {
-		margin: 5% auto;
+		margin: 3% auto;
 	}
 }
 
