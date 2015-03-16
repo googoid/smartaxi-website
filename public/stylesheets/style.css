@@ -207,21 +207,22 @@ html,body{
 
 
 
-/* Desktops and laptops ----------- [>= 800 < 1279] */
-@media only screen  and (min-width : 800px) and (max-width : 1279px) {
+/* Desktops and laptops ----------- [>= 700 < 1279] */
+@media only screen  and (min-width : 700px) and (max-width : 1279px) {
 /* Styles */
 	.page {
 	    background: #251a36 url(../images/fhd.jpg) no-repeat top center fixed;
 	}
 	.page .cont {
 		padding: 1% 0 1% 0;
-		width: 60%;
+		width: 80%;
 	}
 	.page .cont .logo {
-		width: 30%;
+		width: 20%;
 	}
 	.page .cont .text {
 		margin: 4% auto 0 auto;
+		width: 95%;
 	}
 	.page .cont .text p {
 		font-size: 16pt;
@@ -233,6 +234,7 @@ html,body{
 
 	.page .cont p.coming {
 		font-size: 18pt;
+		margin-bottom: 2%;
 	}
 
 	.page .cont p.coming.am {
@@ -240,7 +242,7 @@ html,body{
 	}
 
 	.page .cont .langs {
-		margin: 3% auto;
+		margin: 2% auto;
 	}
 	.page .cont .langs .lang {		
 		width: 55px;
