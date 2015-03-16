@@ -6,12 +6,6 @@
 	src: url(../fonts/arnamu.woff);
 	src: url(../fonts/arnamu.otf);
 }
-/*@font-face {
-	font-family: Arian AMU;
-	src: url(http://localhost:3000/fonts/arnamu.ttf);
-	src: url(http://localhost:3000/fonts/arnamu.woff);
-	src: url(http://localhost:3000/fonts/arnamu.otf);
-}*/
 
 .am {
 	font-family: "Arian AMU" !important;
@@ -213,7 +207,49 @@ html,body{
 
 
 
+/* Desktops and laptops ----------- [>= 800 < 1279] */
+@media only screen  and (min-width : 800px) and (max-width : 1279px) {
+/* Styles */
+	.page {
+	    background: #251a36 url(../images/fhd.jpg) no-repeat top center fixed;
+	}
+	.page .cont {
+		padding: 1% 0 1% 0;
+		width: 60%;
+	}
+	.page .cont .logo {
+		width: 30%;
+	}
+	.page .cont .text {
+		margin: 4% auto 0 auto;
+	}
+	.page .cont .text p {
+		font-size: 16pt;
+	}
+	.page .cont .text p.am {
+		font-size: 14pt;
+		line-height: 18pt;
+	}
 
+	.page .cont p.coming {
+		font-size: 18pt;
+	}
+
+	.page .cont p.coming.am {
+		font-size: 16pt;
+	}
+
+	.page .cont .langs {
+		margin: 3% auto;
+	}
+	.page .cont .langs .lang {		
+		width: 55px;
+		height: 55px;		
+		margin-right: 20px;
+		line-height: 55px;
+		font-size: 12pt;
+	}
+}
 
 
 
