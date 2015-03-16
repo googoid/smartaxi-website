@@ -1,5 +1,22 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+@font-face {
+	font-family: Arian AMU;
+	src: url(http://www.smarttaxi.am/fonts/arnamu.ttf);
+	src: url(http://www.smarttaxi.am/fonts/arnamu.woff);
+	src: url(http://www.smarttaxi.am/fonts/arnamu.otf);
+}
+/*@font-face {
+	font-family: Arian AMU;
+	src: url(http://localhost:3000/fonts/arnamu.ttf);
+	src: url(http://localhost:3000/fonts/arnamu.woff);
+	src: url(http://localhost:3000/fonts/arnamu.otf);
+}*/
+
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
+
+.am {
+	font-family: "Arian AMU" !important;
+	font-weight: normal;
+}
 
 html,body{
     height:100%;
@@ -57,6 +74,10 @@ html,body{
 	margin: 0px;
 	padding: 0px;
 }
+.page .cont .text p.am {
+	font-size: 16pt;
+	line-height: 24pt;
+}
 .page .cont .text p.b {
 	margin-top: 3%;
 }
@@ -104,6 +125,9 @@ html,body{
 	margin: 0px 0 4% 0;
 	padding: 0px;
 }
+.page .cont p.coming.am {
+	font-size: 18pt;
+}
 
 .page .cont .buttons {
 	text-align: center;
@@ -147,6 +171,10 @@ html,body{
 	.page .cont .text p {
 		font-size: 14pt;
 	}
+	.page .cont .text p.am {
+		font-size: 12pt;
+		line-height: 18pt;
+	}
 
 	.page .cont .langs {	
 		margin: 5% auto;
@@ -169,6 +197,10 @@ html,body{
 
 	.page .cont p.coming {
 		font-size: 16pt;
+	}
+	.page .cont p.coming.am {
+		font-size: 14pt;
+		line-height: 20pt;
 	}
 	.page .cont .buttons img {
 		width: 40%;

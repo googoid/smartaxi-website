@@ -5,15 +5,16 @@ block content
 		div(class="cont")
 			img.logo(src="/images/logo.png")
 			div(class="text")
-				p.!= body_top_text										
-				p(class="b")!= body_bottom_text
+				p(class= lang_id == 'am' ? "am" : "").!= body_top_text										
+				p(class= lang_id == 'am' ? "b am" : "b")!= body_bottom_text
 
 
 			div(class="langs")
 				a(class= lang_id == 'am' ? "lang act" : "lang" href="/") ARM
 				a(class= lang_id == 'en' ? "lang act" : "lang" href="/en") ENG
 				a(class= lang_id == 'ru' ? "lang act last" : "lang last" href="/ru") RUS
-			p(class="coming")!= coming_soon_text
+			p(class= lang_id == 'am' ? "coming am" : "coming")!= coming_soon_text
 			div(class="buttons")
 				img.google(src="/images/btn_google.png")
 				img(src="/images/btn_apple.png")
+
