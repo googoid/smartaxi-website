@@ -2,9 +2,9 @@
 
 @font-face {
 	font-family: "Arian AMU";
-	src: url(http://www.smarttaxi.am/fonts/arnamu.ttf);
-	src: url(http://www.smarttaxi.am/fonts/arnamu.woff);
-	src: url(http://www.smarttaxi.am/fonts/arnamu.otf);
+	src: url(../fonts/arnamu.ttf);
+	src: url(../fonts/arnamu.woff);
+	src: url(../fonts/arnamu.otf);
 }
 /*@font-face {
 	font-family: Arian AMU;
