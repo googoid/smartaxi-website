@@ -8,7 +8,7 @@ router.get('/', function(req, res, next) {
   	title: 'SmartTaxi',
   	body_top_text: '',
   	body_bottom_text: '',
-  	coming_soon_text: ''
+  	coming_soon_text: 'Շուտով բոլոր բջջային սարքավորումների համար'
   });
 });
 
@@ -18,7 +18,7 @@ router.get('/en', function(req, res, next) {
   	title: 'SmartTaxi',
   	body_top_text: '',
   	body_bottom_text: '',
-  	coming_soon_text: ''
+  	coming_soon_text: 'Coming soon on mobile devices'
   });
 });
 
