@@ -1,5 +1,7 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
+
 @font-face {
-	font-family: Arian AMU;
+	font-family: "Arian AMU";
 	src: url(http://www.smarttaxi.am/fonts/arnamu.ttf);
 	src: url(http://www.smarttaxi.am/fonts/arnamu.woff);
 	src: url(http://www.smarttaxi.am/fonts/arnamu.otf);
@@ -10,8 +12,6 @@
 	src: url(http://localhost:3000/fonts/arnamu.woff);
 	src: url(http://localhost:3000/fonts/arnamu.otf);
 }*/
-
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
 
 .am {
 	font-family: "Arian AMU" !important;
