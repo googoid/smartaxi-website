@@ -60,6 +60,14 @@ html,body{
 .page .cont .text p.b {
 	margin-top: 3%;
 }
+.page .cont .text p strong {
+	font-family: "Open Sans";
+	font-weight: 400;
+}
+.page .cont .text p span.strong {
+	font-family: "Open Sans";
+	font-weight: 400;
+}
 
 .page .cont .langs {
 	/*width: 450px;
