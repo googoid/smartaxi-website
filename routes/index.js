@@ -16,7 +16,7 @@ router.get('/en', function(req, res, next) {
   res.render('index', { 
     lang_id: 'en',
     title: 'SmartTaxi',
-    body_top_text: 'SmartTaxi - A completely modern, quick and convenient way of finding a cab in Armenia using your mobile device. With reliable and fair customer support, connection with the operators in case of necessity. Simple, yet powerful interface packed with myriads of useful features.',
+    body_top_text: 'SmartTaxi - A completely modern, quick and convenient way of finding a cab in Armenia using your mobile device. Reliable and quality customer service, connection with the operators in case of necessity. Simple, yet powerful interface packed with myriads of useful features.',
     body_bottom_text: 'SmartTaxi - smart technologies for smart people',
     coming_soon_text: 'Coming soon on mobile devices'
   });
