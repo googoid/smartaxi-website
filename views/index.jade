@@ -1,21 +1,20 @@
 extends layout
 
-block content
-	div(class="page")
-		div(class="cont")
-			img.logo(src="/images/logo.png")
-			div(class="text")
-				p(class= lang_id == 'am' ? "am" : "").!= body_top_text										
-				p(class= lang_id == 'am' ? "b am" : "b")!= body_bottom_text
+block content	
+	div(class="cont")
+		img.logo(src="/images/logo.png")
+		div(class="text")
+			p(class= lang_id == 'am' ? "am" : "").!= body_top_text										
+			p(class= lang_id == 'am' ? "b am" : "b")!= body_bottom_text
 
 
-			div(class="langs")
-				a(class= lang_id == 'am' ? "lang act" : "lang" href="/") ARM
-				a(class= lang_id == 'en' ? "lang act" : "lang" href="/en/") ENG
-				a(class= lang_id == 'ru' ? "lang act last" : "lang last" href="/ru/") RUS
-			p(class= lang_id == 'am' ? "coming am" : "coming")!= coming_soon_text
-			div(class="buttons")
-				img.google(src="/images/btn_google.png")
-				img(src="/images/btn_apple.png")
+		div(class="langs")
+			a(class= lang_id == 'am' ? "lang act" : "lang" href="/") ARM
+			a(class= lang_id == 'en' ? "lang act" : "lang" href="/en/") ENG
+			a(class= lang_id == 'ru' ? "lang act last" : "lang last" href="/ru/") RUS
+		p(class= lang_id == 'am' ? "coming am" : "coming")!= coming_soon_text
+		div(class="buttons")
+			img.google(src="/images/btn_google.png")
+			img(src="/images/btn_apple.png")
 
 	script(src='/js/anal.js')
