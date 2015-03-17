@@ -34,10 +34,10 @@ html,body{
 	background: rgba(0,0,0, 0.6);
 	margin: 0 auto;
 	position: relative;
- 	top: 50%;
-  	-webkit-transform: translateY(-50%);
+ 	top: 10%;
+  	/*-webkit-transform: translateY(-50%);
   	-ms-transform: translateY(-50%);
-  	transform: translateY(-50%);
+  	transform: translateY(-50%);*/
   	border-radius: 15px;
   	padding: 4% 0 2% 0;
 }
@@ -152,9 +152,9 @@ html,body{
 	.page .cont {
 		width: 90%;
 		padding: 4% 0;
-		-webkit-transform: none;
+		/*-webkit-transform: none;
   		-ms-transform:  none;
-  		transform:  none;
+  		transform:  none;*/
 	}
 	.page .cont .logo {
 		width: 50%;
