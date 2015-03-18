@@ -246,6 +246,9 @@ html,body{
 
 /* full hd */
 @media only screen and (min-width : 1824px) and (max-width : 1920px) {
+	html,body{	  
+	    background: #251a36 url(../images/fhd.jpg) no-repeat top left;
+	}
 	.cont {
 		width: 60%;
 	}	
