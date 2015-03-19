@@ -32,6 +32,10 @@ html,body{
   	padding: 2% 0 1% 0;
 }
 
+.cont .fb-box {
+	margin: 2% 0 0 2%;
+}
+
 .cont .logo {
 	margin: 0 auto 5% auto;
 	display: block;
