@@ -14,7 +14,7 @@
 }*/
 
 .am {
-	font-family: "Fedra Sans Armenian";
+	font-family: "Fedra Sans Armenian" !important;
 	font-style: Normal;
 	font-weight: 300;
 	font-stretch: normal;
