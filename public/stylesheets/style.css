@@ -7,9 +7,17 @@
 	src: url(../fonts/arnamu.otf);
 }
 
-.am {
+
+/*.am {
 	font-family: "Arian AMU" !important;
 	font-weight: normal;
+}*/
+
+.am {
+	font-family: "Fedra Sans Armenian";
+	font-style: Normal;
+	font-weight: 300;
+	font-stretch: normal;
 }
 
 html,body{
